@@ -25,6 +25,7 @@ public class HorasExtras {
         //valor da hora
         System.out.print("Qual o valor da hora do funcionário: ");
         double valorHora = entrada.nextDouble();
+        entrada.close();
 
         //saber quanto tempo ficou no trabalho
         
@@ -47,6 +48,6 @@ public class HorasExtras {
         //Imprimir o resultado na tela
         System.out.println("Olá "+nome+" você teve o total de "+horaComMinutos+" horas sendo "+horaAcrescentada+"  horas extras e "+demaisHoras+" horas demais");
         System.out.println("No caso você teve um total do dia de R$"+totalDiaria+" sendo R$"+valorAcrescentada+" horas extras e "+valorDemaisHoras+" demais horas.");
-        entrada.close();
+        
     }
 }
